@@ -28,5 +28,11 @@ namespace Lab5_Nhom1_19521982
             Bai2_Lab5 bai2_Lab5 = new Bai2_Lab5();
             bai2_Lab5.Show();
         }
+
+        private void btnYc5_Click(object sender, EventArgs e)
+        {
+            Bai3_Lab5 bai3_Lab5 = new Bai3_Lab5();
+            bai3_Lab5.Show();
+        }
     }
 }

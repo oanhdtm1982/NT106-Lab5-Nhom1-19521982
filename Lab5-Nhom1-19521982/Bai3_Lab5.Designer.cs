@@ -92,7 +92,7 @@
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(94, 40);
             this.btnLogin.TabIndex = 27;
-            this.btnLogin.Text = "SEND";
+            this.btnLogin.Text = "LOGIN";
             this.btnLogin.UseVisualStyleBackColor = false;
             // 
             // Bai3_Lab5

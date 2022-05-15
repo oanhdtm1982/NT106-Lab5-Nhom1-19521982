@@ -32,8 +32,8 @@ namespace Lab5_Nhom1_19521982
                 client = new ImapClient();
                 client.Connect("127.0.0.1", 143, SecureSocketOptions.None);
                 client.Authenticate(name, password);
-                Lab05_Bai03_ReadMail Form = new Lab05_Bai03_ReadMail();
-                Form.MailUsersName = txtEmail.Text;
+                Bai3_Lab5_ReadMail Form = new Bai3_Lab5_ReadMail();
+                Form.MailUsersName = tbEmail.Text;
                 Form.Password = tbPassword.Text;
                 Form.Show();
                 MessageBox.Show("Successfully!");

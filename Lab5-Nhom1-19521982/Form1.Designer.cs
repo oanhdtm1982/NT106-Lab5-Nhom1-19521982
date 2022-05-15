@@ -34,6 +34,8 @@
             this.btnYc3 = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.btnYc4 = new System.Windows.Forms.Button();
+            this.btnYc5 = new System.Windows.Forms.Button();
+            this.label4 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -102,11 +104,34 @@
             this.btnYc4.UseVisualStyleBackColor = true;
             this.btnYc4.Click += new System.EventHandler(this.btnYc4_Click);
             // 
+            // btnYc5
+            // 
+            this.btnYc5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnYc5.Location = new System.Drawing.Point(141, 457);
+            this.btnYc5.Name = "btnYc5";
+            this.btnYc5.Size = new System.Drawing.Size(157, 52);
+            this.btnYc5.TabIndex = 30;
+            this.btnYc5.Text = "Yêu Cầu 5";
+            this.btnYc5.UseVisualStyleBackColor = true;
+            this.btnYc5.Click += new System.EventHandler(this.btnYc5_Click);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(79, 394);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(243, 25);
+            this.label4.TabIndex = 29;
+            this.label4.Text = "Yêu cầu 5 - Email Client";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(922, 534);
+            this.ClientSize = new System.Drawing.Size(922, 560);
+            this.Controls.Add(this.btnYc5);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.btnYc4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.btnYc3);
@@ -128,6 +153,8 @@
         private System.Windows.Forms.Button btnYc3;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button btnYc4;
+        private System.Windows.Forms.Button btnYc5;
+        private System.Windows.Forms.Label label4;
     }
 }
 
