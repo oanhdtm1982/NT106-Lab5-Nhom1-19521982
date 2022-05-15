@@ -87,6 +87,24 @@
     <Compile Include="Bai2_Lab5.Designer.cs">
       <DependentUpon>Bai2_Lab5.cs</DependentUpon>
     </Compile>
+    <Compile Include="Bai3_Lab5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bai3_Lab5.Designer.cs">
+      <DependentUpon>Bai3_Lab5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bai3_Lab5_ReadMail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bai3_Lab5_ReadMail.Designer.cs">
+      <DependentUpon>Bai3_Lab5_ReadMail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bai3_Lab5_SendMail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bai3_Lab5_SendMail.Designer.cs">
+      <DependentUpon>Bai3_Lab5_SendMail.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -100,6 +118,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Bai2_Lab5.resx">
       <DependentUpon>Bai2_Lab5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bai3_Lab5.resx">
+      <DependentUpon>Bai3_Lab5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bai3_Lab5_ReadMail.resx">
+      <DependentUpon>Bai3_Lab5_ReadMail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bai3_Lab5_SendMail.resx">
+      <DependentUpon>Bai3_Lab5_SendMail.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
